@@ -1,0 +1,17 @@
+{
+		"routeUseModule": false,
+
+		"autoTemplateRoute": false,
+
+		"timeout": 10,
+
+		"console": false,
+
+		"viewEngine": "hbs",
+
+		"server": {
+				"port": 8080
+		},
+
+		"middleware": []
+}
