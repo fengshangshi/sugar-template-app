@@ -2,15 +2,15 @@
  * @file controller demo
  */
 
-var GET_user = function(req, res) {
+var GET_index = function(req, res) {
 		var username = this.PARAM['username'];
 		var password = this.PARAM['password'];
-		res.render('post/index', {
+		res.render('account/user', {
 				name: username,
 				password: password
 		});
 };
 
-GET_user.params = ['username', 'password'];
+GET_index.params = ['username', 'password'];
 
-exports.GET_user = GET_user;
+exports.GET_index = GET_index;
